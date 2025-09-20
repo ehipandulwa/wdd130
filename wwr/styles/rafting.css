@@ -1,6 +1,6 @@
 /* CSS Variables */
 :root {
-  --primary-color: #003366;  /* navy blue */
+  --primary-color: #0e3e75;  /* blue */
   --secondary-color: #ffffff; /* white */
   --accent1-color: #264653;   /* dark slate */
   --accent2-color: #e76f51;   /* orange-red */
@@ -109,20 +109,22 @@ section h2 {
 
 /* Footer */
 footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 16px 0;
-  padding: 8px;
-  border-top: 2px solid var(--primary-color);
+  text-align: center;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 16px;
 }
 
-.socialmedia a {
-  text-decoration: none;
-  margin-left: 10px;
+footer .socialmedia {
+  margin-top: 10px;
 }
 
-.socialmedia img {
-  width: 24px;
-  height: 24px;
+footer .socialmedia a {
+  text-decoration: none; 
+}
+
+footer .socialmedia img {
+  width: 30px;
+  margin: 0 10px;
+  vertical-align: middle;
 }
